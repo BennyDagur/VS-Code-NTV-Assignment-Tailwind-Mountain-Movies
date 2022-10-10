@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dropdown.js">
+  </head>
+  <body>
+    <div class="bg-sky-500 h-24 flex items-center justify-end sm:justify-center lg:justify-between lg:flex-row lg:p-4">
+        <h1 class="text-3xl font-bold text-white whitespace-nowrap pr-2">Mountain Movies</h1> <!-- Logo -->
+        <div class="items-start absolute ml-2 left-0 lg:relative lg:items-end">
+        <button class="rounded-md px-2 bg-slate-800 h-10 text-white lg:hidden" onclick="dropdown()">Menu</button>
+        <nav class="lg:flex w-full absolute ml-1 hidden lg:relative" id="navbar">
+          <ul class="lg:flex lg:space-x-2 lg:bg-transparent py-2 -ml-1 bg-slate-800 rounded-md">
+            <li><a class="px-2 font-semibold text-white" href="">New</a></li>
+            <li><a class="px-2 font-semibold text-white" href="">Favourites</a></li>
+            <li><a class="px-2 font-semibold text-white" href="">Trending</a></li>
+            <li><a class="px-2 font-semibold text-white" href="">Sign up</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div> <!-- NAV BAR -->
+      <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+
+
+        <div class="m-2 mx-2 md:flex md:flex-col shadow-lg rounded-md">
+          
+          <div class="md:flex">
+            <div class="flex md:items-center h-48 bg-cover justify-end flex-col" style="background-image: url(american.jpg);">
+              <h1 class="font-bold text-2xl text-white p-3 mt-4">American Psycho</h1>
+              <h1 class="text-sm text-white whitespace-nowrap px-3 pb-3">1h42m | Rated R</h1>
+            </div>
+            <div class="px-2"> 
+              <h2 class="text-xl font-semibold">Christian Bale</h2>
+              <p class="text-[13px]">A wealthy New York City investment banking executive, Patrick Bateman, hides his alternate psychopathic ego from his co-workers and friends as he delves deeper into his violent, hedonistic fantasies.
+              </p>
+            </div>
+          </div>
+          
+          
+          <div class="grid grid-cols-4 divide-x-2 divide-black border-2 border-black">         
+
+            <div class="text-center">
+              <h1 class="">10:00</h1>
+              <h1 class="">AMC <br> Theatre</h1>
+            </div>
+
+            <div class="text-center">
+              <h1 class="">10:00</h1>
+              <h1 class="">Regal <br> Theatre</h1>
+            </div>
+
+            <div class="text-center">
+              <h1 class="">10:00</h1>
+              <h1 class="">Cinemark <br> Theatre</h1>
+            </div>
+
+            <div class="text-center">
+              <h1 class="">10:00</h1>
+              <h1 class="">Cineplex <br> Theatre</h1>
+            </div>
+          </div>
+        </div><!-- Card -->
+
+
+        <div class="m-2 mx-2 md:flex md:flex-col shadow-lg rounded-md ">
+          
+          <div class="md:flex">
+            <div class="flex md:items-center h-48 bg-cover justify-end flex-col" style="background-image: url(american.jpg);">
+              <h1 class="font-bold text-2xl text-white p-3 mt-4">American Psycho</h1>
+              <h1 class="text-sm text-white whitespace-nowrap px-3 pb-3">1h42m | Rated R</h1>
+            </div>
+            <div class="px-2"> 
+              <h2 class="text-xl font-semibold">Christian Bale</h2>
+              <p class="text-[13px]">A wealthy New York City investment banking executive, Patrick Bateman, hides his alternate psychopathic ego from his co-workers and friends as he delves deeper into his violent, hedonistic fantasies.
+              </p>
+            </div>
+          </div>
+          
+          
+          <div class="grid grid-cols-4 divide-x-2 divide-black border-2 border-black">         
+
+            <div class="text-center">
+              <h1 class="">10:00</h1>
+              <h1 class="">AMC <br> Theatre</h1>
+            </div>
+
+            <div class="text-center">
+              <h1 class="">10:00</h1>
+              <h1 class="">Regal <br> Theatre</h1>
+            </div>
+
+            <div class="text-center">
+              <h1 class="">10:00</h1>
+              <h1 class="">Cinemark <br> Theatre</h1>
+            </div>
+
+            <div class="text-center">
+              <h1 class="">10:00</h1>
+              <h1 class="">Cineplex <br> Theatre</h1>
+            </div>
+          </div>
+        </div><!-- Card -->
+
+
+        <div class="m-2 mx-2 md:flex md:flex-col shadow-lg rounded-md ">
+          
+          <div class="md:flex">
+            <div class="flex md:items-center h-48 bg-cover justify-end flex-col" style="background-image: url(american.jpg);">
+              <h1 class="font-bold text-2xl text-white p-3 mt-4">American Psycho</h1>
+              <h1 class="text-sm text-white whitespace-nowrap px-3 pb-3">1h42m | Rated R</h1>
+            </div>
+            <div class="px-2"> 
+              <h2 class="text-xl font-semibold">Christian Bale</h2>
+              <p class="text-[13px]">A wealthy New York City investment banking executive, Patrick Bateman, hides his alternate psychopathic ego from his co-workers and friends as he delves deeper into his violent, hedonistic fantasies.
+              </p>
+            </div>
+          </div>
+          
+          
+          <div class="grid grid-cols-4 divide-x-2 divide-black border-2 border-black">         
+
+            <div class="text-center">
+              <h1 class="">10:00</h1>
+              <h1 class="">AMC <br> Theatre</h1>
+            </div>
+
+            <div class="text-center">
+              <h1 class="">10:00</h1>
+              <h1 class="">Regal <br> Theatre</h1>
+            </div>
+
+            <div class="text-center">
+              <h1 class="">10:00</h1>
+              <h1 class="">Cinemark <br> Theatre</h1>
+            </div>
+
+            <div class="text-center">
+              <h1 class="">10:00</h1>
+              <h1 class="">Cineplex <br> Theatre</h1>
+            </div>
+          </div>
+        </div><!-- Card -->
+
+
+        <div class="m-2 mx-2 md:flex md:flex-col shadow-lg rounded-md ">
+          
+          <div class="md:flex">
+            <div class="flex md:items-center h-48 bg-cover justify-end flex-col" style="background-image: url(american.jpg);">
+              <h1 class="font-bold text-2xl text-white p-3 mt-4">American Psycho</h1>
+              <h1 class="text-sm text-white whitespace-nowrap px-3 pb-3">1h42m | Rated R</h1>
+            </div>
+            <div class="px-2"> 
+              <h2 class="text-xl font-semibold">Christian Bale</h2>
+              <p class="text-[13px]">A wealthy New York City investment banking executive, Patrick Bateman, hides his alternate psychopathic ego from his co-workers and friends as he delves deeper into his violent, hedonistic fantasies.
+              </p>
+            </div>
+          </div>
+          
+          
+          <div class="grid grid-cols-4 divide-x-2 divide-black border-2 border-black">         
+
+            <div class="text-center">
+              <h1 class="">10:00</h1>
+              <h1 class="">AMC <br> Theatre</h1>
+            </div>
+
+            <div class="text-center">
+              <h1 class="">10:00</h1>
+              <h1 class="">Regal <br> Theatre</h1>
+            </div>
+
+            <div class="text-center">
+              <h1 class="">10:00</h1>
+              <h1 class="">Cinemark <br> Theatre</h1>
+            </div>
+
+            <div class="text-center">
+              <h1 class="">10:00</h1>
+              <h1 class="">Cineplex <br> Theatre</h1>
+            </div>
+          </div>
+        </div><!-- Card -->
+
+
+      </div> <!--Main Page-->
+      <script src="dropdown.js"></script>
+  </body>
+</html>
